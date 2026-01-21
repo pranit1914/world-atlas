@@ -1,16 +1,45 @@
-# React + Vite
+🌍 World Atlas – React Frontend (Dockerized)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern World Atlas web application frontend built using React + Vite, fully containerized with Docker for easy development, deployment, and scalability.
 
-Currently, two official plugins are available:
+This project displays country-related information in a clean, responsive UI and follows best practices in frontend structure and DevOps readiness.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Tech Stack
 
-## React Compiler
+React.js – Component-based UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vite – Fast development & build tool
 
-## Expanding the ESLint configuration
+JavaScript (ES6+)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+CSS – Styling
+
+Docker – Containerization
+
+ESLint – Code quality
+
+📁 Project Structure
+world-atlas/
+│── public/            
+│── src/               
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── App.css
+│── Dockerfile        
+│── .dockerignore
+│── .gitignore
+│── index.html
+│── package.json
+│── vite.config.js
+│── README.md
+
+🐳 Docker Setup (Recommended)
+🔹 Build Docker Image
+docker build -t world-atlas .
+
+🔹 Run Docker Container
+docker run -p 3000:3000 world-atlas
+
+
+👉 Open in browser:
+http://localhost:3000
