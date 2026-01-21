@@ -4,7 +4,7 @@ A modern World Atlas web application frontend built using React + Vite, fully co
 
 This project displays country-related information in a clean, responsive UI and follows best practices in frontend structure and DevOps readiness.
 
-🚀 Tech Stack
+🚀 Tech Stack:-
 
 React.js – Component-based UI
 
